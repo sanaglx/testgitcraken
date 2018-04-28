@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-content: center;
 }
 .flexbox .item{
     flex: 0 0 calc(20%);

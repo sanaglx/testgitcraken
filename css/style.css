@@ -12,3 +12,14 @@ body{
     padding: 10px;
     margin: 5px;
 }
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flexbox .item{
+    flex: 0 0 calc(20%);
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
